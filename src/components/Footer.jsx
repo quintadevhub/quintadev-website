@@ -52,6 +52,7 @@ function Footer() {
             {/* CONTACT SECTION */}
             <div className="pt-6 flex flex-col sm:flex-row gap-10 text-sm">
 
+               {/* EMAIL CLICK -> MAIL CLIENT OPEN */}
               <div>
                 <p className="text-gray-500 text-xs uppercase tracking-wider mb-2">
                   Email
@@ -161,15 +162,17 @@ function Footer() {
           </span>
 
           <div className="flex flex-wrap justify-center lg:justify-end gap-6">
-            <Link to="/privacy-policy" className="hover:text-lime-400 transition">
+            <span className="cursor-default">
               Privacy Policy
-            </Link>
-            <Link to="/terms" className="hover:text-lime-400 transition">
+            </span>
+
+            <span className="cursor-default">
               Terms of Service
-            </Link>
-            <Link to="/cookies" className="hover:text-lime-400 transition">
+            </span>
+
+            <span className="cursor-default">
               Cookies Settings
-            </Link>
+            </span>
           </div>
 
         </div>
